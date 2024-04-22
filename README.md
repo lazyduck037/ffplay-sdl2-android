@@ -22,7 +22,6 @@ If you want to build ffmpeg-7.0 prebuild by your self, you can reference to my r
   ```
   ndk.dir=/Users/lap15292-local/Android/Sdk/ndk/25.1.8937393
   sdk.dir=/Users/lap15292-local/Android/Sdk
-  ./build.sh
   ```
  * To run with mp4 file in Sdcard, change USE_FILE variable in Utils.java file
   ```java
