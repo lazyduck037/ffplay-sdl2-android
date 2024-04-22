@@ -12,16 +12,14 @@ import java.io.OutputStream;
 import java.util.logging.Handler;
 
 public class Utils {
-
-
-    public static String H264_HTTPS = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4";
-    public static String H264_ASSET = "h264.mp4";
+    public static final String H264_HTTPS = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4";
+    public static final String H264_ASSET = "/h264.mp4";
+    public static final boolean USE_FILE = true;
 
     public static String firstArgument(Context context) {
-        String param = H264_HTTPS;
-        if (H264_ASSET.equals(param)) {
+        if (USE_FILE) {
             String cache = context.getExternalCacheDir().getAbsolutePath().toString();
-            return cache + "/h264.mp4";
+            return cache + H264_ASSET;
         }else {
             return H264_HTTPS;
         }
