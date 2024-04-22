@@ -9,7 +9,8 @@ This repo port ffplay program to android appliaction. FFplay is a tool in ffmpeg
 # Prebuild Version 
  * **FFmeg 7.0** [Download](https://ffmpeg.org/releases/ffmpeg-7.0.tar.xz)
  * **SDL2 2.28.5** [Download](https://github.com/libsdl-org/SDL/releases/tag/release-2.28.5)
-  If you want to build ffmpeg-7.0 prebuild by your self, you can reference to my repo [fmpeg-openssl-android](https://github.com/lazyduck037/ffmpeg-openssl-android)
+
+ If you want to build ffmpeg-7.0 prebuild by your self, you can reference to my repo [fmpeg-openssl-android](https://github.com/lazyduck037/ffmpeg-openssl-android)
 # Build Info
  My build with:
   * Android NDK: [r25c(25.2.9519653)](https://github.com/android/ndk/wiki/Unsupported-Downloads)
