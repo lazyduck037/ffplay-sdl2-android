@@ -1,0 +1,2 @@
+/Users/lap15292-local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar qc libSDL2main.a CMakeFiles/SDL2main.dir/src/main/android/SDL_android_main.c.o
+/Users/lap15292-local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib libSDL2main.a
