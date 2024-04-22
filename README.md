@@ -1,4 +1,4 @@
-# Ffplay Android SDL2
+# Ffplay SDL2 For Android Platform
 This repo port ffplay program to android appliaction. FFplay is a tool in ffmpeg-7.0. The repo also uses SDL2 to render texture. The repo ingores parse command params, it passes params from Java Class.
 # Supported Android ABIs
 + `armeabi` (Android 21+)
