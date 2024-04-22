@@ -24,11 +24,11 @@ If you want to build ffmpeg-7.0 prebuild by your self, you can reference to my r
   sdk.dir=/Users/lap15292-local/Android/Sdk
   ./build.sh
   ```
- * To run with mp4 file in Sdcard USE_FILE
+ * To run with mp4 file in Sdcard, change USE_FILE variable in Utils.java file
   ```java
   public static final boolean USE_FILE = true;
   ```
- * To run with Url
+ * To run with Url, change the variables in Utils.java
   ```java
   public static final boolean USE_FILE = false;
   public static final String H264_HTTPS = "Your-URL";
