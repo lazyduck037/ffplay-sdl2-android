@@ -17,6 +17,7 @@ This repo port ffplay program to android appliaction. FFplay is a tool in ffmpeg
   * HOST: MAC/OSX, Linux (Not Test), Window 11
   * Gradle version: 8.3.2
   * Android Studio: Android Studio Iguana | 2023.2.1 Patch 2
+  * CMake: 3.10.2.4988404 / 3.22.1 in Android SDK
 # How to build:
   * Change ndk.dir=path/to/android-ndk, sdk.dir=path/to/android-sdk in local.properties file to yours
     
