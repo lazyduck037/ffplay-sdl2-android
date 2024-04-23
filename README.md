@@ -19,6 +19,7 @@ This repo port ffplay program to android appliaction. FFplay is a tool in ffmpeg
   * Android Studio: Android Studio Iguana | 2023.2.1 Patch 2
 # How to build:
   * Change ndk.dir=path/to/android-ndk, sdk.dir=path/to/android-sdk in local.properties file to yours
+    
   My case:
   ```
   ndk.dir=/Users/lap15292-local/Android/Sdk/ndk/25.1.8937393
